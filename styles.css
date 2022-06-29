@@ -1,0 +1,189 @@
+
+ #title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+
+h1 {
+  font-family: "Montserrat-Black 900";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+/* navigation bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.navbar-nav {
+  padding-left: 600px;
+}
+
+/* download buttons  */
+
+.download-button1 {
+  margin: 4% 3% 5% 0;
+  position: relative;
+  right: 22%;
+  top: 10%;
+
+
+
+
+}
+
+/* title image */
+
+.title-image {
+  width: 15%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 30%
+}
+
+/* features section  */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+
+
+}
+
+.feature-box {
+  text-align: center;
+  padding: 7%;
+}
+
+.icon {
+  color: #ef8172;
+  padding-bottom: 1.5rem;
+
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonial section  */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section  */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.try {
+  padding-bottom: 8%
+}
+
+#title {
+  text-align: center;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* end */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+
+  }
+
+.end-text {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 3rem;
+  padding: 3%;
+
+}
+
+.download-button {
+  margin-bottom: 3%;
+  margin-right: 1.5%;
+}
+
+#footer {
+  text-align: center;
+  padding-top: 3%;
+}
+
+.end-brands {
+  padding-left: 0.5%;
+  padding-bottom: 0.5%;
+}
